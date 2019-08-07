@@ -7,7 +7,6 @@ export default class StatusBar extends React.Component {
 
     this.state = {
       time: '00:00',
-      amPm: 'am',
       date: (new Date()).toLocaleDateString('en-US', { day: 'numeric', month: 'long' }),
     }
   }
@@ -17,26 +16,15 @@ export default class StatusBar extends React.Component {
   }
 
   getTime () {
-    const takeTwelve = n => n > 12 ?  n  - 12 : n
     const addZero = n => n < 10 ? "0" +  n : n
 
     setInterval(() => {
-      let d, h, m, t, amPm
+      const date = new Date()
+      const hours = addZero(date.getHours())
+      const minutes = addZero(date.getMinutes())
+      const time = `${hours}:${minutes}`
 
-      d = new Date()
-      h = addZero(takeTwelve(d.getHours()))
-      m = addZero(d.getMinutes())
-      //s = addZero(d.getSeconds())
-      t = `${h}:${m}`
-
-      amPm = d.getHours() >= 12 ? "pm" : "am"
-
-      this.setState({
-        ...this.state,
-        amPm: amPm,
-        time: t
-      })
-
+      this.setState({ ...this.state, time })
     }, 1000)
   }
 

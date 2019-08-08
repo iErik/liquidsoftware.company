@@ -16,7 +16,7 @@ export default class StatusBar extends React.Component {
   }
 
   getTime () {
-    const addZero = n => n < 10 ? "0" +  n : n
+    const addZero = n => n < 10 ? '0' +  n : n
 
     setInterval(() => {
       const date = new Date()

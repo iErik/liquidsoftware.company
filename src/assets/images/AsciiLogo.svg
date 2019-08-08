@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="276px" height="169px" viewBox="0 0 276 169" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Small</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-17.4%" y="-14.7%" width="135.9%" height="130.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="10" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="UbuntuMono-Regular, Ubuntu Mono" font-size="7" font-weight="normal">
+        <g id="Landing-Page" transform="translate(-543.000000, -183.000000)">
+            <g id="Main-Terminal" filter="url(#filter-1)" transform="translate(475.000000, 171.000000)">
+                <g id="Contents" transform="translate(10.000000, 25.000000)">
+                    <g id="ASCII-Logo" transform="translate(63.000000, 0.000000)">
+                        <text id="Small">
+                            <tspan x="0" y="6" fill="#4DC0FF">                                                </tspan>
+                            <tspan x="168" y="6" fill="#EF3F6A">  `'~!&lt;\uZUdDDqwx+'  </tspan>
+                            <tspan x="241.5" y="6" fill="#4DC0FF"> </tspan>
+                            <tspan x="0" y="13" fill="#4DC0FF">                       </tspan>
+                            <tspan x="80.5" y="13" fill="#1EB4BC">        `',:,'  </tspan>
+                            <tspan x="136.5" y="13" fill="#4DC0FF">      </tspan>
+                            <tspan x="157.5" y="13" fill="#EF3F6A">.ijPbDDDRRRRRRRRRRRRRD{' </tspan>
+                            <tspan x="245" y="13" fill="#4DC0FF"></tspan>
+                            <tspan x="0" y="20" fill="#4DC0FF">                       </tspan>
+                            <tspan x="80.5" y="20" fill="#1EB4BC">`;=LJykbDDDDDDbf_ </tspan>
+                            <tspan x="143.5" y="20" fill="#4DC0FF"> </tspan>
+                            <tspan x="147" y="20" fill="#EF3F6A">,!`\DDDRRRRRRRKyz7uXDRRRRDD;</tspan>
+                            <tspan x="245" y="20" fill="#4DC0FF"></tspan>
+                            <tspan x="0" y="27" fill="#4DC0FF">            </tspan>
+                            <tspan x="42" y="27" fill="#F1B014">` </tspan>
+                            <tspan x="49" y="27" fill="#4DC0FF">        </tspan>
+                            <tspan x="77" y="27" fill="#1EB4BC">.;!}DDDDDDDDDDDDDD;</tspan>
+                            <tspan x="143.5" y="27" fill="#4DC0FF"> </tspan>
+                            <tspan x="147" y="27" fill="#EF3F6A">~~,'!=qDRRDDz,      _EDKEjz&lt;</tspan>
+                            <tspan x="245" y="27" fill="#4DC0FF"></tspan>
+                            <tspan x="0" y="34" fill="#F1B014">    ~=ixoURNw </tspan>
+                            <tspan x="49" y="34" fill="#4DC0FF">       </tspan>
+                            <tspan x="73.5" y="34" fill="#1EB4BC">,\yDDDDDDXi+LbDDDdU\</tspan>
+                            <tspan x="143.5" y="34" fill="#4DC0FF">  </tspan>
+                            <tspan x="150.5" y="34" fill="#EF3F6A">**=|DDRRDU' </tspan>
+                            <tspan x="192.5" y="34" fill="#4DC0FF">               </tspan>
+                            <tspan x="0" y="41" fill="#F1B014"> 'j';&lt;N####Nw </tspan>
+                            <tspan x="49" y="41" fill="#4DC0FF">        </tspan>
+                            <tspan x="77" y="41" fill="#1EB4BC">_^DDDDD6    :~'`</tspan>
+                            <tspan x="133" y="41" fill="#4DC0FF">    </tspan>
+                            <tspan x="147" y="41" fill="#EF3F6A">=LiyDDDRRD'  </tspan>
+                            <tspan x="192.5" y="41" fill="#4DC0FF">               </tspan>
+                            <tspan x="0" y="48" fill="#F1B014"> `!J\ZN####Nw </tspan>
+                            <tspan x="49" y="48" fill="#4DC0FF">     </tspan>
+                            <tspan x="66.5" y="48" fill="#1EB4BC"> `? iDDDDDDz^_' </tspan>
+                            <tspan x="122.5" y="48" fill="#4DC0FF">       </tspan>
+                            <tspan x="147" y="48" fill="#EF3F6A">```;DRRRRS            ':;=i*</tspan>
+                            <tspan x="245" y="48" fill="#4DC0FF"></tspan>
+                            <tspan x="0" y="55" fill="#F1B014">^Jtx}%N####Nw </tspan>
+                            <tspan x="49" y="55" fill="#4DC0FF">      </tspan>
+                            <tspan x="70" y="55" fill="#1EB4BC">'! _dDDDDDDDDDD6y\;`</tspan>
+                            <tspan x="140" y="55" fill="#4DC0FF">   </tspan>
+                            <tspan x="150.5" y="55" fill="#EF3F6A">,LtDRRRRK`         `ZDDRDK'</tspan>
+                            <tspan x="245" y="55" fill="#4DC0FF"></tspan>
+                            <tspan x="0" y="62" fill="#F1B014">'~`.'!N####Nw </tspan>
+                            <tspan x="49" y="62" fill="#4DC0FF">       </tspan>
+                            <tspan x="73.5" y="62" fill="#1EB4BC">~;Ld6KDDDDDDDDDDDD6~</tspan>
+                            <tspan x="143.5" y="62" fill="#4DC0FF">  </tspan>
+                            <tspan x="150.5" y="62" fill="#EF3F6A">'' XDRRRDy'      `=qDDDDX' </tspan>
+                            <tspan x="245" y="62" fill="#4DC0FF"></tspan>
+                            <tspan x="0" y="69" fill="#F1B014">  ,LfgN####Nw </tspan>
+                            <tspan x="49" y="69" fill="#4DC0FF">        </tspan>
+                            <tspan x="77" y="69" fill="#1EB4BC">:, ;yXoY7T7jdDDDDDK</tspan>
+                            <tspan x="143.5" y="69" fill="#4DC0FF">   </tspan>
+                            <tspan x="154" y="69" fill="#EF3F6A">;,,DDRRRRDSv||zmDDDRDb? </tspan>
+                            <tspan x="238" y="69" fill="#4DC0FF">  </tspan>
+                            <tspan x="0" y="76" fill="#F1B014">  6DUqN####Nw </tspan>
+                            <tspan x="49" y="76" fill="#4DC0FF">        </tspan>
+                            <tspan x="77" y="76" fill="#1EB4BC">', `.,~' ?^ &lt;DDDDDA </tspan>
+                            <tspan x="147" y="76" fill="#4DC0FF"> </tspan>
+                            <tspan x="150.5" y="76" fill="#EF3F6A">;{\IoqDRRRRRDRDDDRDDa^` </tspan>
+                            <tspan x="234.5" y="76" fill="#4DC0FF">   </tspan>
+                            <tspan x="0" y="83" fill="#F1B014">   ., W####Nw   </tspan>
+                            <tspan x="56" y="83" fill="#4DC0FF">       </tspan>
+                            <tspan x="80.5" y="83" fill="#1EB4BC">jXdDDDa' `;UDDDDD=</tspan>
+                            <tspan x="143.5" y="83" fill="#4DC0FF">  </tspan>
+                            <tspan x="150.5" y="83" fill="#EF3F6A">',~.?jftjUDDDDD6y\!. </tspan>
+                            <tspan x="224" y="83" fill="#4DC0FF">      </tspan>
+                            <tspan x="0" y="90" fill="#F1B014">  ` ` g####Nw  </tspan>
+                            <tspan x="52.5" y="90" fill="#4DC0FF">        </tspan>
+                            <tspan x="80.5" y="90" fill="#1EB4BC">yDDDDDDDdDDDDDDq^ </tspan>
+                            <tspan x="143.5" y="90" fill="#4DC0FF">              </tspan>
+                            <tspan x="192.5" y="90" fill="#EF3F6A">`</tspan>
+                            <tspan x="196" y="90" fill="#4DC0FF">              </tspan>
+                            <tspan x="0" y="97" fill="#F1B014">      g####NU;^LzyXD\</tspan>
+                            <tspan x="73.5" y="97" fill="#4DC0FF">  </tspan>
+                            <tspan x="80.5" y="97" fill="#1EB4BC">.SDDDDDDDDDDDw&lt;`</tspan>
+                            <tspan x="136.5" y="97" fill="#4DC0FF">                 </tspan>
+                            <tspan x="196" y="97" fill="#F3F3F3">`,;+</tspan>
+                            <tspan x="210" y="97" fill="#4DC0FF">          </tspan>
+                            <tspan x="0" y="104" fill="#F1B014">      g####NN#NNN##NT</tspan>
+                            <tspan x="73.5" y="104" fill="#4DC0FF">    </tspan>
+                            <tspan x="87.5" y="104" fill="#1EB4BC">:*Jjyjti+~`</tspan>
+                            <tspan x="126" y="104" fill="#4DC0FF">          </tspan>
+                            <tspan x="161" y="104" fill="#F3F3F3">`'=!|KDRo@@N&lt;^</tspan>
+                            <tspan x="210" y="104" fill="#4DC0FF">          </tspan>
+                            <tspan x="0" y="111" fill="#F1B014">      g#######NNNN8D&lt;</tspan>
+                            <tspan x="73.5" y="111" fill="#4DC0FF">               </tspan>
+                            <tspan x="126" y="111" fill="#F3F3F3">`,`T}zQ'_WZa?xz*;.`</tspan>
+                            <tspan x="192.5" y="111" fill="#4DC0FF">               </tspan>
+                            <tspan x="0" y="118" fill="#F1B014">      gNN%ASYi&lt;;:. </tspan>
+                            <tspan x="66.5" y="118" fill="#4DC0FF">         </tspan>
+                            <tspan x="98" y="118" fill="#F3F3F3">^_&lt;i%7yW@qykS=\` `</tspan>
+                            <tspan x="161" y="118" fill="#4DC0FF">                        </tspan>
+                            <tspan x="0" y="125" fill="#4DC0FF">     </tspan>
+                            <tspan x="17.5" y="125" fill="#F1B014"> ,'</tspan>
+                            <tspan x="28" y="125" fill="#4DC0FF">         </tspan>
+                            <tspan x="59.5" y="125" fill="#F3F3F3">`~;?i?QQW_,gz=+;`.</tspan>
+                            <tspan x="122.5" y="125" fill="#4DC0FF">                                   </tspan>
+                            <tspan x="0" y="132" fill="#4DC0FF">                </tspan>
+                            <tspan x="56" y="132" fill="#F3F3F3">'gqww7\!~'</tspan>
+                            <tspan x="91" y="132" fill="#4DC0FF">                                            </tspan>
+                            <tspan x="0" y="139" fill="#4DC0FF">                                                                      </tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

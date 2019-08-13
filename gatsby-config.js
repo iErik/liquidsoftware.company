@@ -1,3 +1,6 @@
+const path = require('path')
+const jsonImporter = require('node-sass-json-importer')
+
 module.exports = {
   siteMetadata: {
     title: `Liquid Software Company`,
@@ -8,8 +11,14 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-sass',
 
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        importer: jsonImporter(),
+        includePaths: [ path.resolve(__dirname, 'src/config') ]
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

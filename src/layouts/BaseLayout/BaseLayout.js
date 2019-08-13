@@ -8,7 +8,7 @@ export default class BaseLayout extends React.Component {
   render () {
 
     return (
-      <div className="BaseLayout -full-size">
+      <div className="BaseLayout -full-size -theme-default">
         <StatusBar />
 
         <div className="BaseLayout-content">

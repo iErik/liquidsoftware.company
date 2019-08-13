@@ -1,13 +1,16 @@
+@import '~@styles/reference/module'
 
 .BaseLayout
   display: flex
   flex-direction: column
 
-  background-color: #242658
+  +themify
+    background-color: color('background')
 
   &-content
     display: flex
     align-items: flex-start
+    justify-content: center
     flex-grow: 1
 
     padding: 60px 80px

@@ -1,0 +1,31 @@
+{ "appThemes":
+  {
+    "default":
+      { "primary":
+        { "base": "#1C2139"
+        }
+
+      , "secondary":
+        { "base": "#1C2139"
+        }
+
+      , "accent":
+        { "base":    "#C51D70"
+        , "dark":    "#D00270"
+        , "light":   "#FF4D83"
+        , "lighter": "#CE6389"
+        }
+
+      , "foreground":
+        { "base":        "#38709D"
+        , "alternative": "#CE6389"
+        , "highlight":   "#D00270"
+        , "command":     "#CE636A"
+        }
+
+      , "background":
+        { "base": "#242658"
+        }
+      }
+  }
+}

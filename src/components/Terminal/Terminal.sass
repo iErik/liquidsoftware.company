@@ -1,11 +1,12 @@
 @import '~@styles/reference/module'
 
 .Terminal
-  background-color: #1C2139
-
   padding: 10px
-  border: 1px solid #C51D70
   box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.30)
+
+  +themify
+    background-color: color('primary')
+    border: 1px solid color('accent')
 
   &.-medium
     width: 495px
@@ -16,11 +17,12 @@
     &-cursor
 
     &-indicator
-      // TODO: Include Ubuntu Mono in project
-      font-family: "Ubuntu Mono"
+      font-family: $alternative-font-family
       font-weight: bold
       font-size: 16px
-      color: #FF4D83
+
+      +themify
+        color: color('accent', 'light')
 
       padding-right: 5px
 
@@ -31,9 +33,9 @@
       -moz-osx-font-smoothing: grayscale
 
     &-input
-      font-family: $base-font
+      font-family: $base-font-family
       font-size: 11px
-      color: #FFF
+      color: white
 
       -webkit-font-family: antialiased
       -moz-osx-font-family: grayscale

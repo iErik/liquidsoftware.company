@@ -3,6 +3,7 @@
     "default":
       { "primary":
         { "base": "#1C2139"
+        , "dark": "#161422"
         }
 
       , "secondary":

@@ -8,6 +8,11 @@
     background-color: color('primary')
     border: 1px solid color('accent')
 
+    &.-dark
+      background-color: color('primary', 'dark')
+
+  &.-small
+    width: 390px
   &.-medium
     width: 495px
 
@@ -37,8 +42,8 @@
       font-size: 11px
       color: white
 
-      -webkit-font-family: antialiased
-      -moz-osx-font-family: grayscale
+      -webkit-font-smoothing: antialiased
+      -moz-osx-font-smoothing: grayscale
 
       -webkit-appearance: none
       background: transparent

@@ -1,12 +1,11 @@
 import React from 'react'
 import './BaseLayout.sass'
 
-import StatusBar from '@components/StatusBar'
+import StatusBar from '@components/Layout/StatusBar'
 
 export default class BaseLayout extends React.Component {
 
   render () {
-
     return (
       <div className="BaseLayout -full-size -theme-default">
         <StatusBar />

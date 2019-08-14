@@ -1,16 +1,16 @@
 import React from "react"
 
 import BaseLayout from '@layouts/BaseLayout'
-import Terminal from '@components/Terminal'
-import WelcomeScreen from '@components/WelcomeScreen'
+
+import LogoTerm from '@components/Homepage/LogoTerm'
+import WelcomeScreen from '@components/Homepage/WelcomeScreen'
 
 // TODO: Remove inline style
 
 const IndexPage = () => (
   <BaseLayout>
-    <Terminal style={{ margin: '0px auto' }}>
-      <WelcomeScreen />
-    </Terminal>
+    <LogoTerm />
+    <WelcomeScreen />
   </BaseLayout>
 )
 

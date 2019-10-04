@@ -1,8 +1,34 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
+import { Link, navigate } from 'gatsby'
 
 import './Terminal.sass'
+
+
+// Terminal Commands
+// -----------------
+
+const routes =
+[ { name: 'Homepage',  path: '/' }
+, { name: 'Portfolio', path: '/portfolio' }
+, { name: 'Services',  path: '/services' }
+, { name: 'About Us',  path: '/about' }
+, { name: 'Contact',   path: '/contact' }
+]
+
+const nameToPath =
+{ 'Homepage' : '/'
+, 'Portfolio': '/portfolio'
+, 'Services' : '/services'
+, 'About Us' : '/about'
+, 'Contact'  : '/contact'
+}
+
+const termCommands =
+{ open: (routeName) => navigate(nameToPath[routeName])
+, help: () => ({})
+}
 
 
 // Partial Components
@@ -29,34 +55,51 @@ const CommandLine = ({ onKeyUp }) => (
 // Terminal Component
 // ------------------
 
-
-const Terminal = ({ size, isDark, isInteractive, children }) => {
-  const parseCommand = (input) => {
-    const commands = input.split(' ')
+class Terminal extends React.Component {
+  constructor (props) {
+    super(props)
   }
 
-  const handleKeyUp = ({ keyCode, target }) =>
-    keyCode === 13 && parseCommand(target.value)
+  cssClasses () {
+    return classNames
+      ( 'Terminal'
+      , `-${this.props.size}`
+      , { '-dark': this.props.isDark }
+      )
+  }
 
-  const emitCommand = () => { }
+  handleKeyUp ({ keyCode, target }) {
+    return keyCode === 13 && this.parseCommand(target.value)
+  }
 
-  const cssClasses = () => {
-    return classNames(
-      'Terminal',
-      `-${size}`,
-      { '-dark': isDark },
+  parseCommand (input) {
+    const [ command, ...args ] = input.split(' ')
+
+    if (Object.keys(termCommands).includes(command))
+      termCommands[command].apply(null, args)
+  }
+
+  // We'll have an array of errors in the state. For each error
+  // we're gonna render it using this function, each error msg
+  // will be composed of the message itself, plus a dummy, non-
+  // interactive CommandLine before it.
+  renderErrors () {
+    return <span />
+  }
+
+  render () {
+    return (
+      <div className={ this.cssClasses() }>
+        <div class="Terminal-inner">
+          { this.props.children }
+        </div>
+
+        { this.renderErrors() }
+
+        { this.props.isInteractive && <CommandLine onKeyUp={ this.handleKeyUp } /> }
+      </div>
     )
   }
-
-  return (
-    <div className={ cssClasses() }>
-      <div>
-        { children }
-      </div>
-
-      { isInteractive && <CommandLine onKeyUp={ handleKeyUp } /> }
-    </div>
-  )
 }
 
 Terminal.propTypes = {

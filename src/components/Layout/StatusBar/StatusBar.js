@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import './StatusBar.sass'
 
 export default class StatusBar extends React.Component {
@@ -33,7 +34,9 @@ export default class StatusBar extends React.Component {
       <div className="StatusBar">
         <div className="StatusBar-section -left">
           <span className="StatusBar-text">
-            Liquid Software Company
+            <Link to="/" className="StatusBar-text-link">
+              Liquid Software Company
+            </Link>
           </span>
         </div>
         <div className="StatusBar-section -center">
